@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="25dp">
+        android:padding="30dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,12 +38,14 @@
             android:layout_height="wrap_content"
             android:text="Title"
             android:textStyle="bold"
+            android:layout_marginBottom="5dp"
             android:textSize="24sp"/>
 
         <TextView
             android:id="@+id/tv_director"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_regular"
             android:text="Director: "/>
 
         <TextView
@@ -51,6 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Release Date: "
+            android:fontFamily="@font/product_sans_regular"
             android:layout_marginBottom="5dp"/>
 
         <TextView
@@ -58,6 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp"
+            android:fontFamily="@font/product_sans_regular"
             android:text="Synopsis"/>
 
         <!--    <Button-->

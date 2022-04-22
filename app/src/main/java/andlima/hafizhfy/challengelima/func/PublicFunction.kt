@@ -196,7 +196,7 @@ suspend fun isDataUserSame(context: Context, sharedPreferences: SharedPreference
         })
 
     // Give delay because function can give return faster than the API connection, and it's not good
-    delay(1800)
+    delay(3000)
     return result
 }
 
@@ -210,9 +210,7 @@ suspend fun latestUserData(context: Context, sharedPreferences: SharedPreference
     for (i in 1..z) {
         GlobalScope.launch {
             isDataMatch = isDataUserSame(context, sharedPreferences)
-//                Handler(Looper.getMainLooper()).postDelayed({
-//
-//                }, 2000)
+            (delay(10000))
             if (!isDataMatch) {
                 dataNotMatchAction(true)
             }

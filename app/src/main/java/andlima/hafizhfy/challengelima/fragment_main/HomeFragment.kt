@@ -74,7 +74,7 @@ class HomeFragment : Fragment() {
         (requireContext() as MainActivity).runOnUiThread {
             GlobalScope.async {
                 latestUserData(requireContext(), sharedPreferences) {
-                    startActivity(Intent((requireContext() as MainActivity), SplashActivity::class.java))
+                    startActivity(Intent((requireContext() as MainActivity), MainActivity::class.java))
                     (requireContext() as MainActivity).finish()
                 }
             }

@@ -28,7 +28,8 @@ class SplashActivity : AppCompatActivity() {
 
         Handler().postDelayed({
             startActivity(Intent(this, MainActivity::class.java))
+            this.overridePendingTransition(0,0)
             finish()
-        }, 2000)
+        }, 1000)
     }
 }

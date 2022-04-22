@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    android:layout_margin="25dp"
+    android:layout_margin="30dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -47,8 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_greeting"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
         android:fontFamily="@font/product_sans_bold"
         android:text="Home"
         android:textColor="@color/main"
@@ -62,15 +62,6 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:theme="@style/MainTheme" />
-
-    <ImageView
-        android:id="@+id/btn_show_option"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_list"
-        android:layout_below="@+id/btn_goto_profile"
-        android:layout_alignEnd="@+id/btn_goto_profile"
-        android:layout_marginTop="22dp"/>
 
     <LinearLayout
         android:id="@+id/nothing_handler"

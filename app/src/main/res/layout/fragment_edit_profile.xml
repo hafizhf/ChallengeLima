@@ -15,13 +15,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="40dp">
+            android:padding="30dp">
 
             <TextView
                 android:id="@+id/title_edit_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="15dp"
                 android:fontFamily="@font/product_sans_bold"
                 android:text="Edit Profile"
                 android:textSize="28sp"
@@ -30,8 +30,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="3dp">
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -43,8 +43,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/product_sans_regular"
-                    android:textColor="@color/main"
-                    android:text="*" />
+                    android:text="*"
+                    android:textColor="@color/main" />
 
             </LinearLayout>
 
@@ -80,8 +80,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="3dp">
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -93,8 +93,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/product_sans_regular"
-                    android:textColor="@color/main"
-                    android:text="*" />
+                    android:text="*"
+                    android:textColor="@color/main" />
 
             </LinearLayout>
 
@@ -175,11 +175,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:background="?android:textColorTertiaryInverse"
         android:orientation="vertical"
-        android:paddingStart="40dp"
+        android:paddingStart="30dp"
         android:paddingTop="10dp"
-        android:paddingEnd="40dp"
-        android:paddingBottom="40dp">
+        android:paddingEnd="30dp"
+        android:paddingBottom="30dp">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_save_profile"
